@@ -1,13 +1,14 @@
 const Hapi = require('hapi');
 const config = require('./config');
+const log = require('./log');
 
 const server = new Hapi.Server();
 server.connection(config.server);
 
 server.start(err => {
     if(err) {
-        console.error(err);
+        log.error(err);
     } else {
-        console.log('Meta server running on port ' + config.server.port);
+        log.info('Meta server running on port ' + config.server.port);
     }
 });

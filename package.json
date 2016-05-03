@@ -10,8 +10,10 @@
   "author": "Ivan Miskovic",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.3.5",
     "bunyan": "^1.8.1",
-    "hapi": "^13.3.0"
+    "hapi": "^13.3.0",
+    "mkdirp": "^0.5.1"
   },
   "devDependencies": {
     "tape": "^4.5.1"
