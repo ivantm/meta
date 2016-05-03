@@ -1,0 +1,19 @@
+{
+  "name": "meta",
+  "version": "0.0.1",
+  "description": "Meta Content Core",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Miskovic",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.1",
+    "hapi": "^13.3.0"
+  },
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
